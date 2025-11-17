@@ -1,0 +1,24 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"open"}
+{"signed_in":false,"milliseconds_since_first_event":18,"type":"Setting","setting":"theme","value":"One Light"}
+{"signed_in":false,"milliseconds_since_first_event":18,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Editor","operation":"open","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":48517,"type":"Setting","setting":"theme","value":"Atelier Seaside Dark"}
+{"signed_in":true,"milliseconds_since_first_event":153038,"type":"App","operation":"extensions page: open"}
+{"signed_in":true,"milliseconds_since_first_event":156932,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":157974,"type":"Extension","extension_id":"biome","version":"0.0.7"}
+{"signed_in":true,"milliseconds_since_first_event":159095,"type":"Extension","extension_id":"html","version":"0.1.1"}
+{"signed_in":true,"milliseconds_since_first_event":165043,"type":"App","operation":"extensions: install extension"}
+{"signed_in":true,"milliseconds_since_first_event":165580,"type":"Extension","extension_id":"github-copilot-theme","version":"0.0.2"}
+{"signed_in":true,"milliseconds_since_first_event":173695,"type":"Edit","duration":14141,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":174729,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":195514,"type":"Setting","setting":"theme","value":"Summercamp"}
+{"signed_in":true,"milliseconds_since_first_event":195626,"type":"Edit","duration":648,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":198776,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":210523,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":218628,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":234892,"type":"Setting","setting":"theme","value":"Ayu Dark"}
+{"signed_in":true,"milliseconds_since_first_event":235279,"type":"Memory","memory_in_bytes":618590208,"virtual_memory_in_bytes":35361169408}
+{"signed_in":true,"milliseconds_since_first_event":235279,"type":"Cpu","usage_as_percentage":5.3660893,"core_count":16}
+{"signed_in":true,"milliseconds_since_first_event":236085,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":267916,"type":"Edit","duration":39376,"environment":"editor"}
+{"signed_in":true,"milliseconds_since_first_event":288698,"type":"Editor","operation":"save","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}

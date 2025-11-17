@@ -1,0 +1,246 @@
+{
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "agent": {
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "play_sound_when_agent_done": true,
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    }
+  },
+  "base_keymap": "VSCode",
+  "buffer_font_family": "Monaspice HuHanMe NF",
+  "buffer_font_size": 14,
+  "buffer_font_weight": 100,
+  "formatter": [
+    {
+      "code_action": "source.fixAll.biome"
+    },
+    {
+      "code_action": "source.organizeImports.biome"
+    }
+  ],
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true,
+      "show_commit_summary": true
+    }
+  },
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 12,
+    "coloring": "indent_aware",
+    "background_coloring": "indent_aware"
+  },
+  "journal": {
+    "path": "~",
+    "hour_format": "hour24"
+  },
+  "languages": {
+    "C++": {
+      "format_on_save": "on",
+      "tab_size": 4
+    },
+    "JavaScript": {
+      "prettier": {
+        "allowed": false
+      },
+      "formatter": [
+        {
+          "code_action": "source.fixAll.biome"
+        },
+        {
+          "code_action": "source.organizeImports.biome"
+        },
+        {
+          "language_server": {
+            "name": "biome"
+          }
+        }
+      ]
+    },
+    "TOML": {
+      "formatter": {
+        "external": {
+          "arguments": ["fmt", "-"],
+          "command": "taplo"
+        }
+      }
+    },
+    "TypeScript": {
+      "prettier": {
+        "allowed": false
+      },
+      "formatter": [
+        {
+          "code_action": "source.fixAll.biome"
+        },
+        {
+          "code_action": "source.organizeImports.biome"
+        },
+        {
+          "language_server": {
+            "name": "biome"
+          }
+        }
+      ]
+    },
+    "TSX": {
+      "prettier": {
+        "allowed": false
+      },
+      "formatter": [
+        {
+          "code_action": "source.fixAll.biome"
+        },
+        {
+          "code_action": "source.organizeImports.biome"
+        },
+        {
+          "language_server": {
+            "name": "biome"
+          }
+        }
+      ]
+    },
+    "Rust": {
+      "tab_size": 2
+    }
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": false
+      }
+    },
+    "deno": {
+      "settings": {
+        "deno": {
+          "enable": false
+        }
+      }
+    },
+    "rust-analyzer": {
+      "binary": {
+        // "path": "/home/admin/.cargo/bin/ra-multiplex",
+        // "path": "/home/admin/.bin/rust-analyzer"
+        // "arguments": [
+        //   "client",
+        //   "--server-path",
+        //   "/home/admin/.bin/rust-analyzer"
+        // ]
+      },
+      "initialization_options": {
+        "cargo": {
+          "allFeatures": true,
+          "runBuildScripts": true
+        },
+        "check": {
+          "command": "clippy"
+        },
+        "server": {
+          "extraEnv": {
+            "RUSTUP_TOOLCHAIN": "nightly"
+          }
+        }
+      }
+    }
+  },
+  "prettier": {
+    "allowed": false
+  },
+  "show_whitespaces": "boundary",
+  "tabs": {
+    "close_position": "right",
+    "git_status": true
+  },
+  "tab_size": 2,
+  "hard_tabs": false,
+  "theme": "Ayu Dark",
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred",
+    "hint": "#8A9A5B",
+    "surface.background": "#000000CA",
+    "background": "#170D2677",
+    "element.background": "#00000011",
+    "status_bar.background": "#000000CA",
+    "title_bar.background": "#000000CA",
+    "toolbar.background": "#000000CA",
+    "tab_bar.background": "#000000CA",
+    "tab.inactive_background": "#000000CA",
+    "tab.active_background": "#8533FF20",
+    "search.match_background": "#ffd33d44",
+    "panel.background": "#000000CA",
+    "scrollbar.thumb.background": "#6a737d33",
+    "scrollbar.thumb.hover_background": "#6a737d44",
+    "scrollbar.track.background": "#000000CA",
+    "scrollbar.track.border": "#2e333cff",
+    "editor.background": "#000000EA",
+    "editor.gutter.background": "#000000CA",
+    "editor.subheader.background": "#000000CA",
+    "syntax": {
+      "comment": {
+        "color": "#6082B6",
+        "font_style": "italic"
+      },
+      "comment.doc": {
+        "color": "#8A9A5B",
+        "font_style": "italic"
+      },
+      "function": {
+        "color": "#00FFFF",
+        "font_style": "italic",
+        "font_weight": 900
+      },
+      "keyword": {
+        "color": "#F92672CA"
+      },
+      "operator": {
+        "color": "#FF787811"
+      },
+      "property": {
+        "color": "#0BDA51"
+      },
+      "punctuation.bracket": {
+        "color": "#CF9FFF",
+        "font_style": "italic",
+        "font_weight": 900
+      },
+      "punctuation.delimiter": {
+        "color": "#0096FF"
+      },
+      "string": {
+        "color": "#F4A460",
+        "font_style": "italic"
+      },
+      "type": {
+        "color": "#fffc7f"
+      },
+      "variable.special": {
+        "color": "#FFFFFF",
+        "font_style": "oblique",
+        "font_weight": 900
+      },
+      "type.builtin": {
+        "color": "#9c851f8e"
+      },
+      "type.interface": {
+        "color": "#b681ef"
+      },
+      "lifetime": {
+        "color": "#ed5c5c"
+      },
+      "variable": {
+        "color": "#FFFFFF"
+      }
+    }
+  },
+  "ui_font_size": 14
+}
